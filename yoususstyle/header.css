@@ -1,0 +1,155 @@
+
+.header {
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(226, 226, 226);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    width: px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.yt-logo {
+    width: 90;
+    height: 20px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 470px;
+    margin-left: 60px;
+}
+
+.search-button {
+    border: 1px;
+    border-style: solid;
+    border-radius: 0 40px 40px 0;
+    border-color: rgb(200, 200, 200);
+    background-color: rgb(251, 251, 251);
+    cursor: pointer;
+    height: 44px;
+    width: 60px;
+    margin: 0;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.03);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.vc-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: rgb(248, 248, 248);
+}
+
+.voice-icon {
+    width: 24px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 40px;
+    width: 90px;
+    padding-left: 16px;
+    border-right: none;
+    border-radius: 40px 0 0 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.03);
+    
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+}
+
+.upload-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.yt-app-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.notif-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.notif-container {
+    position: relative;
+}
+
+.notif-number {
+    font-size: 10px;
+    font-family: roboto, arial;
+    border-radius: 10px;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.channel-icon {
+    width: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
